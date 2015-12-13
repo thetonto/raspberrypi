@@ -1,0 +1,12 @@
+
+
+ proc            /proc           proc    defaults       0       0
+/dev/mmcblk0p1                                  /boot           vfat    default$
+UUID=62ba9ec9-47d9-4421-aaee-71dd6c0f3707       /               ext4    default$
+UUID=3c8c98d1-67c5-4ebb-88e5-6b0d9bf65ffa       /mnt/cloud      auto    default$
+UUID=90e6554d-64be-44e7-a4eb-04f4178b6d3a       none                    swap   $
+UUID=c4e802fa-7ed1-4d75-92dc-6e6236b73559       /mnt/mp         auto    default$
+# UUID=21784181-cb4c-4ae5-9290-9eaed66b413f       /mnt/tv1      auto    default$
+# a swapfile is not a swap partition, so no using swapon|off from here on, use $
+
+
